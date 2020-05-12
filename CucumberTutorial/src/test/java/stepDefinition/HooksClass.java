@@ -7,12 +7,13 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class HooksClass {
+public class HooksClass { 
 	
 	//WebDriver driver;
 	
 	@Given("^Thanos has the Infinity Stones$")
 	public void thanos_has_the_Infinity_Stones() throws Throwable {
+		
 		System.out.println("Thanos has the Infinity Stones");
 		/*System.setProperty("webdriver.chrome.driver","./src/test/resources/drivers/chromedriver.exe");
 		driver=new ChromeDriver();
