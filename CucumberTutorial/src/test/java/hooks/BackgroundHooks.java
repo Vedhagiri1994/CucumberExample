@@ -8,13 +8,11 @@ public class BackgroundHooks {
 	
 	@Before
 	public void beforeScenario(){
-		System.out.println("This will run before all scenario");
-		
+		System.out.println("This will run before all scenario");	
 	}
 	
 	@After
 	public void afterScenario(){
-		System.out.println("This will run after all scenario");
-		
+		System.out.println("This will run after all scenario");	
 	}
 }

@@ -1,3 +1,4 @@
+@Expression
 Feature: This feature file is to explain expressions
 Scenario: This is an expression scenario
 	Given I have 1 laptop

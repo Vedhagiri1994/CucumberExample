@@ -2,7 +2,7 @@
 Feature: Test Tagged Hooks
 
 @First
-Scenario: This is the First SCenario
+Scenario: This is the First Scenario
 Given this is the first step
 When this is the second step
 Then this is the third step

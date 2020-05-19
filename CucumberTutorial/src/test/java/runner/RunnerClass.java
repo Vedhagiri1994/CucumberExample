@@ -9,12 +9,12 @@ import cucumber.api.junit.Cucumber;
 
 @CucumberOptions(
 		features="FeaturesFiles",
-		glue={"stepDefinition","hooks"},
-		dryRun=false,
+		glue={"stepDefinition"},
+		dryRun=true,
 		strict=true,
 		monochrome=true,
 		plugin={"html:report/WebReport","json:report/jsonReport.json"},
-		tags={"@BackgroundExample"})
+		tags={"@TaggedHooks"})
 
 public class RunnerClass { 
 	
